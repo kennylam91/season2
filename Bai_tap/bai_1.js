@@ -1,0 +1,11 @@
+let vatlyInput=prompt("Nhap diem vat ly:");
+let hoahocInput=prompt("Nhap diem hoa hoc: ");
+let sinhocInput=prompt("Nhap diem sinh hoc: ");
+let vatly=parseFloat(vatlyInput);
+let hoahoc=parseFloat(hoahocInput);
+let sinhhoc=parseFloat(sinhocInput);
+let tb=(vatly+hoahoc+sinhhoc)/3;
+document.write("Diem vat ly:" +vatly +"<br/>");
+document.write("Diem hoa hoc: " +hoahoc +"<br/>");
+document.write("Diem sinh hoc: " +sinhhoc +"<br/>");
+document.write("Diem trung binh 3 mon: " +tb);
