@@ -5,7 +5,7 @@
     <title>bai so 5</title>
 </head>
 <body>
-<p>Ứng dụng chuyển đổi tiền tệ</p>
+<h1>Ứng dụng chuyển đổi tiền tệ</h1>
 <div style="display:inline-block;margin:10px;">
     <p style="text-align: center;">Amount</p>
     <input style= "line-height: 2rem;border:solid 2px black;font-size:16px;"type="text" ID="amount"/>
@@ -15,8 +15,14 @@
     <p style="text-align: center;">From Currency</p>
     <form style="line-height: 34px;border:solid 2px black;">
         <select name="tien_te" id="fromCurrency" style="border:none;font-size:16px;">
-            <option value="USD">USD</option>
-            <option value="VND">VietnamDong</option>
+            <option value="1">USD</option>
+            <option value="1/23000">VNDong</option>
+            <option value="1/6.5">Nhan dan te</option>
+            <option value="1/112">Yen Nhat</option>
+            <option value="1.12">Euro</option>
+            <option value="1/1141">Won Han Quoc</option>
+            <option value="1/1.36">Singapore Dollar</option>
+            <option value="1.29">Bang Anh</option>
         </select>
     </form>
 
@@ -25,14 +31,20 @@
     <p style="text-align: center;">To Currency</p>
     <form style="line-height: 34px;border:solid 2px black;">
         <select name="tien_te" id="toCurrency" style="border:none;font-size:16px;">
-            <option value="USD">USD</option>
-            <option value="VND">VietnamDong</option>
+            <option value="1">USD</option>
+            <option value="23000">VNDong</option>
+            <option value="6.5">Nhan dan te</option>
+            <option value="112">Yen Nhat</option>
+            <option value="1.12">Euro</option>
+            <option value="1141">Won Han Quoc</option>
+            <option value="1.36">Singapore Dollar</option>
+            <option value="1.29">Bang Anh</option>
         </select>
     </form>
 
 </div>
 <button style="background-color:blueviolet;color:white;height:36px;width:100px;margin:10px;" type="button" value="convert" id="convert" onclick="showMessage();">convert</button>
-<p id="result" style="color:blue;font-weight: bold;"></p>
+<p id="result" style="color:blue;font-weight: bold;font-size:20px;"></p>
 <script type="text/javascript" src="bai_5.js"></script>
 </body>
 </html>
